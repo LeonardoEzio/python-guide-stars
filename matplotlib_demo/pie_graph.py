@@ -1,4 +1,3 @@
-import numpy as np
 import matplotlib.pyplot as plt
 
 
@@ -17,7 +16,6 @@ def draw_single_pie():
     # 绘制饼图
     plt.pie(size, explode=explode, colors=color, labels=category, labeldistance=1.1, autopct="%1.1f%%", startangle=90, pctdistance=0.6)
     plt.show()
-
 
 
 def draw_multi_pie():
