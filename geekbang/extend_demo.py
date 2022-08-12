@@ -39,3 +39,9 @@ if __name__ == '__main__':
     print(harry_potter_book.object_type)
     harry_potter_book.print_title()
     print(harry_potter_book.get_context_length())
+
+    print("===========================================")
+    harry_potter_movie = Video("Harry Potter(Movie)", "J.K.Rowling", "This is a Fantastic movie..........")
+    print(harry_potter_movie.object_type)
+    harry_potter_movie.print_title()
+    print(harry_potter_movie.get_context_length())
